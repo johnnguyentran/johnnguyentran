@@ -1,18 +1,39 @@
 
-<html>
+<html lang="en-US">
   <title>
     John Nguyen-Tran - Student at Michigan State University 
   </title>
   
-  <body>
-    <h1>John Nguyen-Tran </h1>
-    <h2>Student at <a href="http://www.msu.edu">Michigan State University</a></h2>
-    <p>Studying Computer Science and Engineering while working for MSU IT Services</p>
-    
-    <a href= "/about-me.html"> About Me </a>
+  <body class="main">
+    <nav class="nav">
+      <div class="container container--vertically-center">
+        <div class="nav__brand">
+          <a href="http://johnnguyentran.com">
+          </a>
+        </div>
+        
+        <ul class="nav__list">
+          <li class="nav__list-item">
+            <a data-scroll href="/About-Me">About Me</a>
+          </li>
+          <li class="nav__list-item">
+            <a data-scroll href="/Projects">Projects</a>
+          </li>
+          <li class="nav__list-item">
+            <a data-scroll href="/Contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
     
   </body>
   
-  </style>
-  
 </html>
+
+.nav {
+    position: relative;
+    padding: 2em 0 .5em;
+    -ms-flex-align: center;
+    align-items: center;
+    z-index: 10;
+}
