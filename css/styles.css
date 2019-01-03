@@ -1,7 +1,23 @@
 body {
-	font-family: Helvetica;
-	background-color: rgb(153, 204, 255);}
+	font-family: Helvetica;;
+	background-color: rgb(153, 204, 255)}
 h1 {
-	color: rgb(255,255,255);}
+	color: white;
+	background-color: rgb(200, 200, 200);}
 h2 {
-	color: rgb(0, 0, 102);}
+	text-shadow: -1px -1px #666666;
+	background-color: DarkCyan;
+	color: GhostWhite}
+h3 {
+	text-shadow: 2px 2px 7px #111111;
+	background-color: #ee3e80;
+	color: White;}
+.clubPara {
+	font-family: Georgia, Times}
+.clubTitle {
+	font-family: Verdana;}
+.sectionInfo {
+	text-align: center;
+	text-transform: uppercase;
+	font-style: italic;
+	font-size: 200%;}
