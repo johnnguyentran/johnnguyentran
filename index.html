@@ -7,25 +7,22 @@
     <link href="css/styles.css" type="text/css" rel="stylesheet" />
   </head>
 
-  <!-- Header: John Nguyen-Tran -->
+    <!-- Header: John Nguyen-Tran -->
 
-  <h1 id="top">John Nguyen-Tran</h1>
-  <img src="/images/me_seniorPic.jpg" alt="Picture of John" width="125" height="150" />
+  <h1 class="header">John Nguyen-Tran</h1>
 
-    <!-- Website Navigation Section -->
-
-    <h2 class = "sectionNav">Website Navigation</h2>
-    <p>Other pages:</p>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="about-me.html">About</a></li>
-      <li>Contacts</li>
-    </ul>
+  <!-- Website Navigation Section -->
+  
+  <ul class="siteNav">
+    <li class="navigation"><a href="index.html">Home</a></li>
+    <li class="navigation"><a href="about/index.html">About</a></li>
+    <li class="navigation"><a href="projects/index.html">Projects</a></li>
+  </ul>
 
     <!-- Current Page Navigation Section -->
 
-    <h2 class = "sectionNav">Current Page Navigation</h2>
-    <ul>
+    <h2 class="topMargin" id="top">Current Page Navigation</h2>
+    <ul class="pageNav">
       <li><a href="#background">Background</a></li>
       <li><a href="#education">Education</a></li>
       <li><a href="#workExperience">Work Experience</a></li>
@@ -37,7 +34,7 @@
     <!-- Background Section -->
 
     <h2  class = "sectionInfo" id="background">Background</h2>
-    <p>I am a student at <a href="http://msu.edu/" target="_blank">Michigan State University </a> studying <strong>Computer Science and Engineering</strong> while <em>minoring</em> in <strong>Information Technology</strong>. While at <acronym title="Michigan State University">MSU</acronym>, I work for MSU IT Services Field Support division.</p>
+    <p class="backgroundP">I am a student at <a href="http://msu.edu/" target="_blank">Michigan State University </a> studying <strong>Computer Science and Engineering</strong> while <em>minoring</em> in <strong>Information Technology</strong>. While at <acronym title="Michigan State University">MSU</acronym>, I work for MSU IT Services Field Support division.</p>
 
     <!-- Education Section -->
 
@@ -45,46 +42,41 @@
 
 
     <!-- Holt High School Section -->
-    <h3>Holt High School</h3>
-    <img src="/images/ed_logoRam.png" alt="Holt High School Rams Logo" width="100" height="100" />
-    <p>I went to Holt High School and particpated in Jazz Band, Marching Band, Concert Band, Symphonic Band, Wind Ensemble, and Pit Band playing the Alto Saxophone. In addition to taking multiple honor and AP classes, I was a junior officer and secretary in the <a href="https://www.nhs.us/" target ="_blank">National Honors Society</a>. I graduated in 2016, with a cumulative GPA of 3.85.</p>
+    <h3 class="edName">Holt High School</h3>
+    <img src="/images/ed_logoRam.png" alt="Holt High School Rams Logo" width="100" height="100" class="edLogo"/>
+    <p class=holtHighSchoolP>I went to Holt High School and particpated in Jazz Band, Marching Band, Concert Band, Symphonic Band, Wind Ensemble, and Pit Band playing the Alto Saxophone. In addition to taking multiple honor and AP classes, I was a junior officer and secretary in the <a href="https://www.nhs.us/" target ="_blank">National Honors Society</a>. I graduated in 2016, with a cumulative GPA of 3.85.</p>
 
     <!-- MSU Section -->
-    <h3>Michigan State University</h3>
-    <img src="/images/ed_logoSpartan.png" alt="MSU Spartan Logo" width="100" height="100" />
-    <p>Currently, I am a junior at Michigan State University in the College of Engineering. I am majoring in <a href="https://reg.msu.edu/AcademicPrograms/ProgramDetail.aspx?Program=2337" target="_blank">Computer Science and Engineering</a> with a cognate in business, along with minoring in <a href="http://itminor.msu.edu/" target="_blank">Information Technology</a>. </p>
+    <h3 class="edName">Michigan State University</h3>
+    <img src="/images/ed_logoSpartan.png" alt="MSU Spartan Logo" width="100" height="100" class="edLogo"/>
+    <p class="michiganStateUniP">Currently, I am a junior at Michigan State University in the College of Engineering. I am majoring in <a href="https://reg.msu.edu/AcademicPrograms/ProgramDetail.aspx?Program=2337" target="_blank">Computer Science and Engineering</a> with a cognate in business, along with minoring in <a href="http://itminor.msu.edu/" target="_blank">Information Technology</a>. </p>
 
     <!-- Work Experience Section -->
 
     <h2 class = "sectionInfo" id="workExperience">Work Experience</h2>
 
-    <table>
+    <table id="jobTable">
       <tr>
-        <th></th>
         <th>Position</th>
         <th>Company</th>
         <th>Date of Employment</th>
       </tr>
       <tr>
-        <th></th>
         <td>Student Food Service Assistant</td>
         <td>MSU <a href="https://rhs.msu.edu/" target ="_blank">RHS</a> Culinary Services</td>
         <td>Sep 2016 - Dec 2016</td>
       </tr>
       <tr>
-        <th></th>
         <td>Dishlead I / Student Manager</td>
         <td>MSU Culinary Services</td>
         <td>Dec 2016 - May 2017</td>
       </tr>
       <tr>
-        <th></th>
         <td>Student Information Technical Assistant I</td>
         <td>MSU <a href="https://ipf.msu.edu/" target ="_blank">Infrastructure Planning & Facilities</a></td>
         <td>May 2017 - Jan 2018</td>
       </tr>
       <tr>
-        <th></th>
         <td>Student Information Technical Assistant I</td>
         <td>MSU <a href="https://tech.msu.edu/" target ="_blank">IT Services</a> - Field Support</td>
         <td>Jan 2018 - Present</td>
@@ -95,24 +87,24 @@
 
     <h2 class = "sectionInfo" id="organizationAndClubs">Organizations & Clubs</h2>
     <h3 class="clubTitle">Leaders in IT</h3>
-    <img src="/images/club_logoLIT.jpg" alt="Leaders in IT Logo" width="100" height="100"  id="club_logoLIT"/>
-    <p class="clubPara">I am currently on the eBoard for Leaders in IT with the role of marketing. Leaders in IT work with companies to host networking events and provide opportunities for students to find a career or internship relating to information technology.</p>
+    <img src="/images/club_logoLIT.jpg" alt="Leaders in IT Logo" width="100" height="100" class="clubLogo"  id="club_logoLIT"/>
+    <p class="clubPara" id="LITPara">I am currently on the eBoard for Leaders in IT with the role of marketing. Leaders in IT work with companies to host networking events and provide opportunities for students to find a career or internship relating to information technology.</p>
 
     <h3 class="clubTitle">Design for America - MSU</h3>
-    <img src="/images/club_logoDFA.png" alt="DFA MSU Logo" width="100" height="100"  id="club_logoDFA"/>
-    <p class="clubPara"> In the 2018 fall semester, I became a member of <a href="http://www.dfamsu.com/" target=_blank">Design for America</a> (DFA) at MSU. Design for America is a national design innovation organization, and it identifies issues within the community along with working with community members to create ideas and concepts that address those challenges. My group and I were able to present our project to <a href="https://www.humana.com/" target ="_blank">Humania</a> in Louisville, Kentucky.</p>
+    <img src="/images/club_logoDFA.png" alt="DFA MSU Logo" width="100" height="100" class="clubLogo"  id="club_logoDFA"/>
+    <p class="clubPara" id="DFAPara"> In the 2018 fall semester, I became a member of <a href="http://www.dfamsu.com/" target=_blank">Design for America</a> (DFA) at MSU. Design for America is a national design innovation organization, and it identifies issues within the community along with working with community members to create ideas and concepts that address those challenges. My group and I were able to present our project to <a href="https://www.humana.com/" target ="_blank">Humania</a> in Louisville, Kentucky.</p>
 
     <h3 class="clubTitle">Alternative Spartan Break</h3>
-    <img src="/images/club_logoASB.png" alt="ASB Logo" width="100" heigh="100" id="club_logoASB"/>
-    <p class="clubPara">In Spring 2018, I joined <a href="https://www.asb.msu.edu" target="_blank">Alternative Spartan Break</a> on a trip during my spring break to Miami, Florida to learn about human trafficking through the <a href="https://lofcenter.org" target ="_blank">Life of Freedom Center</a> (Sharing One Love) . We spoke to victims and learned about ways to combat human trafficking along with ways to raise awareness about it in our own community.</p>
+    <img src="/images/club_logoASB.png" alt="ASB Logo" width="100" heigh="100" class="clubLogo" id="club_logoASB"/>
+    <p class="clubPara" id="ASBPara">In Spring 2018, I joined <a href="https://www.asb.msu.edu" target="_blank">Alternative Spartan Break</a> on a trip during my spring break to Miami, Florida to learn about human trafficking through the <a href="https://lofcenter.org" target ="_blank">Life of Freedom Center</a> (Sharing One Love) . We spoke to victims and learned about ways to combat human trafficking along with ways to raise awareness about it in our own community.</p>
     
     <h3 class="clubTitle">Spartasoft</h3>
-    <img src="/images/club_logoSpartasoft.jpg" alt="Spartasoft Logo" width="100" height="100" id="club_logoSpartasoft"/>
-    <p class="clubPara">Spartasoft is a game development club at MSU and it teaches interested students the basics of game development. It also hosts a game jam every semester, in which members are given a few days to create and develop a video game. I was a part of this club in 2016, and I was able to learn the basics about developing a game.</p> 
+    <img src="/images/club_logoSpartasoft.jpg" alt="Spartasoft Logo" width="100" height="100" class="clubLogo" id="club_logoSpartasoft"/>
+    <p class="clubPara" id="SpartasoftPara">Spartasoft is a game development club at MSU and it teaches interested students the basics of game development. It also hosts a game jam every semester, in which members are given a few days to create and develop a video game. I was a part of this club in 2016, and I was able to learn the basics about developing a game.</p> 
 
   </body>
 
 
-<p><a href="#top">Top</a></p>
+<p id="top"><a href="#top">Top</a></p>
 
 </html>
