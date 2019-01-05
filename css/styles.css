@@ -1,23 +1,150 @@
+h1.header{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	padding: 10px;
+	margin: 0px;
+	width: 100%;
+	z-index: 10px;
+
+	-moz-box-shadow: inset 0 0 10px #777777;
+	-webkit-box-shadow: inset 0 0 10px #777777;
+	box-shadow: inset 0 0 10px #777777;
+}
+ul.siteNav{
+	position: fixed;
+	top: 0px;
+	left: -15px;
+	padding: 10px;
+	margin: 0px;
+	width: 100%;
+	z-index: 10px;
+}
+
+h2.topMargin{
+	margin-top: 100px;
+}
+
+ul.siteNav{
+	text-align: right;
+}
+li.navigation{
+	font-size: 200%;
+	display: inline;
+	margin-left: 10px;
+}
+
+ul.pageNav{
+	list-style: inside circle;
+	width: 300px;
+}
+
 body {
 	font-family: Helvetica;;
-	background-color: rgb(153, 204, 255)}
+	background-color:lightsteelblue
+}
+
+p{
+	border: 5px solid darkcyan;
+	padding: 20px;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+
+p#top{
+	border: none;
+	text-align: right;
+}
+
 h1 {
 	color: white;
-	background-color: rgb(200, 200, 200);}
+	background-color: rgb(200, 200, 200);
+}
 h2 {
 	text-shadow: -1px -1px #666666;
-	background-color: DarkCyan;
-	color: GhostWhite}
+	background-color: darkcyan;
+	color: white
+}
 h3 {
 	text-shadow: 2px 2px 7px #111111;
-	background-color: #ee3e80;
-	color: White;}
+	background-color: darkcyan;
+	width: 500px;
+	text-align: center;
+	color: white;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+	/*Link Styling*/
+a:link {
+	color: rgb(6,69,173);
+	text-decoration: none
+}
+a:visited {
+	color: midnightblue;
+}
+a:hover {
+	color: red;
+	text-decoration: underline;
+}
+a:active {
+	color: purple;
+}
+
+h2.sectionNav{
+	border-style: inset;
+}
+h2.sectionInfo {
+	border-style: solid;
+}
+h3.clubTitle{
+	border-style: dashed;
+}
+h3.edName{
+	border-style: dotted;
+}
+
+img.clubLogo{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+img.edLogo{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+table#jobTable {
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+}
+table#jobTable th {
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	font-size: 90%;
+	border-bottom: 2px solid black;
+	border-top: 1px solid black;
+	text-align: left;
+}
+table#jobTable tr:nth-child(odd) {
+	background-color: lightgray;
+}
+table#jobTable tr:nth-child(even) {
+	background-color: white;
+}
+
 .clubPara {
-	font-family: Georgia, Times}
+	font-family: Georgia, Times
+}
 .clubTitle {
-	font-family: Verdana;}
+	font-family: Verdana;
+}
 .sectionInfo {
 	text-align: center;
 	text-transform: uppercase;
 	font-style: italic;
-	font-size: 200%;}
+	font-size: 200%;
+}
